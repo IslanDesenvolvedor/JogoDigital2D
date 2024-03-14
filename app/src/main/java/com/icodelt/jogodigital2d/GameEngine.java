@@ -1,4 +1,11 @@
 package com.icodelt.jogodigital2d;
 
-public class GameEngine {
+import android.content.Context;
+import android.view.SurfaceView;
+
+public class GameEngine extends SurfaceView {
+
+    public GameEngine(Context context) {
+        super(context);
+    }
 }
